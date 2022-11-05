@@ -7,6 +7,9 @@
 @import url("../css/slick.css");
 @import url("../css/animate.css");
 
+* {
+   transition: all 3s;
+}
 
 .btn-amazing {
    color: #24182e;
@@ -3857,4 +3860,10 @@ img.mfp-img {
 
 .responsive-screen {
    margin-top: 50px;
+}
+
+.icon-pencil,
+.icon-tablet,
+.icon-pictures {
+   margin-top: 40px;
 }
